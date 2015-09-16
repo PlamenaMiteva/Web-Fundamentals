@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F0EFEA;
+}
+@font-face {
+    font-family: 'myFont';
+    src: url('OpenSans-ExtraBold.ttf');
+}
+body>header {
+    font-size: 56px;
+    text-align: center;
+    color: #008172;
+    font-family: 'myFont';
+}
+#upper {
+    margin-bottom: 50px;
+    font-family: Helvetica;
+    font-size: 20px;
+}
+#upper p {
+    text-align: center;
+    color: gray;
+}
+#down-section {
+    text-align: center;
+}
+#down-section>button>header>h2 {
+    color: gray;
+    font-size: 16px;
+    font-family: 'myFont';
+}
+#down-section>button>section>p {
+    color: gray;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+button {
+    padding: 0 5px;
+    border: none;
+    background-color: #F0EFEA;
+    font-size: 16px;
+    width: 190px;
+    margin: 10px;
+}
+button:hover {
+    background-image: linear-gradient(left, rgb(0, 129, 114) 5%, rgba(255, 255, 255, 0.4) 0%);
+    background-image: -o-linear-gradient(left, rgb(0, 129, 114) 5%, rgba(255, 255, 255, 0.4) 0%);
+    background-image: -moz-linear-gradient(left, rgb(0, 129, 114) 5%, rgba(255, 255, 255, 0.4) 0%);
+    background-image: -webkit-linear-gradient(left, rgb(0, 129, 114) 5%, rgba(255, 255, 255, 0.4) 0%);
+    background-image: -ms-linear-gradient(left, rgb(0, 129, 114) 5%, rgba(255, 255, 255, 0.4) 0%);
+    ndard syntax (must be last) */
+}

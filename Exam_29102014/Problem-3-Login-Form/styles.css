@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'Glyphicons';
+    src: url('glyphicons-halflings-regular.ttf');
+}
+body {
+    background: url('background.png');
+    /*font-family: Arial, Helvetica, sans-serif;*/
+}
+#wrapper {
+    margin: 0 auto;
+    width: 810px;
+    height: 400px;
+    border-top: 2px solid gray;
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+}
+#form-wrapper {
+    width: 750px;
+    height: 320px;
+    margin: 30px 30px;
+    padding: 15px;
+    background-color: #333333;
+}
+header {
+    background-color: #679966;
+    text-align: center;
+    font-family: "Lobster";
+    font-size: 25px;
+    color: white;
+}
+#left-wrapper, #right-wrapper {
+    width: 350px;
+    height: 210px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#left-wrapper {
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+}
+#left-wrapper:before {
+    content: "\e104";
+    font-family: "Glyphicons";
+    font-size: 70px;
+    position: absolute;
+    left: 32%;
+    color: white;
+}
+#left-wrapper p:first-child {
+    margin-top: 90px;
+    padding-top: 10px;
+    border-top: 1px solid gray;
+}
+#left-wrapper p {
+    padding-left: 130px;
+}
+#left-wrapper p:before {
+    content: "\e089";
+    font-family: "Glyphicons";
+    font-size: 10px;
+    position: absolute;
+    left: 30%;
+    color: white;
+}
+#right-wrapper {
+    margin-left: 10px;
+}
+#right-wrapper div {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+#right-wrapper div:after {
+    content: "\e008";
+    font-family: "Glyphicons";
+    font-size: 18px;
+    position: absolute;
+    left: 50.8%;
+    top: 27%;
+    color: black;
+    background-color: #679966;
+    width: 40px;
+    height: 29px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-top: 8px;
+}
+#right-wrapper div:before {
+    content: "\e135";
+    font-family: "Glyphicons";
+    font-size: 18px;
+    position: absolute;
+    left: 50.8%;
+    top: 35%;
+    color: black;
+    background-color: #679966;
+    width: 40px;
+    height: 29px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-top: 8px;
+}
+input[type="text"] {
+    width: 300px;
+    height: 30px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+input[type="text"] {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+input[type="submit"] {
+	width: 350px;
+    height: 40px;
+    background-color: black;
+    border-color: black;
+    color: white;
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+input[type="submit"]:hover {
+    background-color: #679966;
+    border-color: #679966;
+}

@@ -1,0 +1,43 @@
+#wrapper {
+    height: 100px;
+    background-color: #234465;
+    padding: 20px;
+    font-family: Verdana;
+    font-size: 15px;
+}
+#wrapper a {
+    float: left;
+}
+#upper-menu {
+    float: right;
+}
+#down-menu {
+    float: right;
+}
+#menu ul li {
+    display: inline-block;
+}
+#menu ul li:first-of-type {
+    color: white;
+    vertical-align: top;
+}
+#menu ul li:nth-of-type(3), #menu ul li:nth-of-type(4) {
+    vertical-align: top;
+}
+li select {
+    background-color: #234465;
+    color: white;
+    border-style: none;
+    font-family: Verdana;
+    font-size: 15px;
+}
+#down-menu li{
+	padding-left: 10px;
+}
+#down-menu li a{
+	color: white;
+	text-decoration: none;
+}
+#down-menu li:nth-of-type(2), #down-menu li:nth-of-type(3){
+	vertical-align: top;
+}

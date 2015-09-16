@@ -1,0 +1,19 @@
+header {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+#first-post, #second-post {
+    color: gray;
+    font-size: 15px;
+}
+#first-post p, #second-post p {
+    display: inline-block;
+}
+author a {
+    color: gray;
+}
+#reading {
+    text-decoration: none;
+    color: blue;
+}

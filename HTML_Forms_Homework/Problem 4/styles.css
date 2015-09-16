@@ -1,0 +1,92 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+#wrapper {
+    width: 1000px;
+    height: 600px;
+    background-color: blue;
+    padding-left: 20px;
+}
+#first {
+    width: 330px;
+    height: 400px;
+    float: left;
+    margin-right: 60px;
+}
+#second {
+    width: 460px;
+    height: 400px;
+    float: left;
+}
+header{
+	color: white;
+	text-align: center;
+}
+header p:nth-child(1){
+	font-size: 50px;
+	margin-bottom: 0px;
+	font-weight: bold;
+}
+header p:nth-child(2){
+	font-size: 30px;
+	margin-bottom: 0px;
+	font-weight: bold;
+}
+header p:nth-child(3){
+	font-size: 20px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+legend{
+	color: white;
+	font-weight: bold;
+}
+#first-name, #last-name, #mail, #phone, #pass, #web, #country, #village, #district, #street, #color, #water, #aunt {
+	width: 120px;
+	height: 20px;
+	float: left;
+}
+#first-name, #mail, #pass, #country, #village, #street, #str-num, #floor, #color, #water {
+	margin-right: 10px;
+}
+#bday label, #personal-info label{
+	color: white;
+}
+#birth-date{
+	width: 180px;
+	height: 20px;
+	float: left;
+}
+#gender{
+	color: white;
+}
+input[type="reset"]{
+	margin-top: 20px;
+	width: 300px;
+	height: 40px;
+	border-radius: 10px;
+	color: blue;
+	font-weight: bold;
+	font-size: 15px;
+}
+#str-num, #floor, #ap-num{
+	float: left;
+	width:50px;
+	height: 20px;
+}
+input[type="submit"]{
+	margin-top: 20px;
+	width: 460px;
+	height: 40px;
+	border-radius: 10px;
+	color: blue;
+	font-weight: bold;
+	font-size: 20px;
+}
+#first, #second, #name, #contact, #word, #bday, #gender, #place, #address, #door, #personal-info{
+	border:none;
+}
+textarea{
+	color: gray;
+}

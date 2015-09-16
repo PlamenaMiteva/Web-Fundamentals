@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Styling HTML Form</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <form action="#" method="post" class="elegant-aero">
+        <h1>Step 1: Your details
+		</h1>
+        <label>
+            <span>Name</span>
+            <input id="names" type="text" name="name" placeholder="First and last name" />
+        </label>
+        <br>
+
+        <label>
+            <span>Email</span>
+            <input id="email" type="email" name="email" placeholder="example@domain.com" />
+        </label>
+        <br>
+
+        <label>
+            <span>Phone</span>
+            <input id="phone" type="tel" name="phone" placeholder="eg. +4475000000" />
+        </label>
+        <h1>Step 2: Delivery address
+		</h1>
+        <label>
+            <span>Address</span>
+            <input id="address" type="text" name="address" />
+        </label>
+        <br>
+
+        <label>
+            <span>Post code</span>
+            <input id="post-code" type="post-code" name="post-code" />
+        </label>
+        <br>
+
+        <label>
+            <span>Country</span>
+            <input id="country" type="text" name="country" />
+        </label>
+        <h1>Step 3: Card details
+		</h1>
+        <label id="card">
+            <span>Card type</span>
+            <br>
+            <input id="card-type" type="radio" name="card-type" value="VISA" /><img src="images/visa.jpg" alt="Visa">VISA
+            <input id="card-type" type="radio" name="card-type" value="AmEx" /><img src="images/AmEx.jpg" alt="American Express">AmEx
+            <input id="card-type" type="radio" name="card-type" value="Mastercard" /><img src="images/mastercard.jpg" alt="Mastercard">Mastercard
+        </label>
+
+        <br>
+        <label>
+            <span>Card number</span>
+            <input id="card-number" type="text" name="card-number" />
+        </label>
+        <br>
+
+        <label>
+            <span>Security code</span>
+            <input id="security-code" type="text" name="security-code" />
+        </label>
+        <br>
+
+        <label>
+            <span>Name on card</span>
+            <input id="card-name" type="text" name="card-name" placeholder="exact name as on the card" />
+        </label>
+        <br>
+
+        <label id="last">
+            <span>&nbsp;</span>
+            <input type="button" class="button" value="BUY IT!" />
+        </label>
+    </form>
+</body>
+
+</html>

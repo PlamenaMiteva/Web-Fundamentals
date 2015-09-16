@@ -1,0 +1,68 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+div {
+	border: 2px solid black;
+}
+#face {
+	background-color: yellow;
+	width: 500px;
+	height: 500px;
+	border-radius: 250px;
+	margin: 0px auto;
+}
+#left-eye, #right-eye {
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	background-color: white;
+}
+#left-eye {
+	margin: 100px 100px 0px 100px;
+	float: left;
+}
+#right-eye {
+	margin: 100px 0px 0px 300px;
+}
+#left-apple, #right-apple {
+	background-color: black;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+}
+#left-apple {
+	margin: 60px 0px 0px 60px;
+}
+#right-apple {
+	margin: 0px;
+}
+#nose {
+	background-color: red;
+	margin: 0px auto;
+	width: 80px;
+	height: 80px;
+	border-radius: 40px; 
+}
+#mouth {
+	background-color: white;
+	width: 250px;
+	height: 100px;
+	border-radius: 50px;
+	margin: 20px auto;
+}
+#left-tooth, #right-tooth {
+	background-color: white;
+	width: 50px;
+	height: 50px;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	border-top: none;
+}
+#left-tooth {
+	margin-left: 72px;
+	float: left;
+}
+#right-tooth {
+	margin-left: 125px;
+}

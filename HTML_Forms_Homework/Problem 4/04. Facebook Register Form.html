@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Facebook Register Form</title>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <p>FAKEBOOK<sub>&reg;</sub>
+            </p>
+            <p>Registration</p>
+            <p>It is safe and it will always be!</p>
+        </header>
+
+        <form action="get">
+            <fieldset id="first">
+                <form action="get">
+                    <fieldset id="left">
+                        <legend>Non-important information</legend>
+
+                        <fieldset id="name">
+                            <input type="text" name="firstName" id="first-name" placeholder="First Name" tabindex="1" />
+                            <input type="text" name="lastName" id="last-name" placeholder="Last Name" tabindex="2"  />
+                        </fieldset>
+
+                        <fieldset id="contact">
+                            <input type="email" name="email" id="mail" placeholder="Your Email" required="true" tabindex="3"/>
+                            <input type="tel" name="phone" id="phone" placeholder="Phone Number" required="true" tabindex="4" />
+                        </fieldset>
+
+                        <fieldset id="word">
+                            <input type="password" name="pass" id="pass" placeholder="Your Password" tabindex="5"/>
+                            <input type="url" name="web" id="web" placeholder="Website" tabindex="6"/>
+                        </fieldset>
+
+                        <fieldset id="bday">
+                            <label>Birthday</label>
+                            <br></br>
+                            <input name="birthday" id="birth-date" type="datetime" tabindex="7"/>
+                        </fieldset>
+
+                        <fieldset <fieldset id="gender">
+                            <input type="radio" name="sex" value="1" /> Female
+                            <input type="radio" name="sex" value="1" /> Male
+                            <input type="radio" name="sex" value="1" /> Other
+                        </fieldset>
+
+                    </fieldset>
+                </form>
+                <input type="reset" value="Clear Form" />
+            </fieldset>
+        </form>
+
+        <form action="get">
+
+            <fieldset id="second">
+                <form action="get">
+
+                    <fieldset id="right">
+                        <legend>Important Information *required</legend>
+
+                        <fieldset id="place">
+                            <select name="country" id = "country" placeholder="Country" required="true" tabindex="8">
+                                <option value="Value 1">Bulgaria</option>
+                                <option value="Value 2">USA</option>
+                                <option value="Value 3">Switzerland</option>
+                                <option value="Value 4">Germany</option>
+                                <option value="Value 5">Swiden</option>
+                                <option value="Value 6">Denmark</option>
+                            </select>
+
+                            <input type="text" name="village" id="village" placeholder="Village" required="true" tabindex="9" />
+                            <input type="text" name="district" id="district" placeholder="District" required="true" tabindex="10"/>
+                        </fieldset>
+
+                        <fieldset id="address">
+                            <input type="text" name="street" id="street" placeholder="Street" required="true" tabindex="11"/>
+                            <input type="text" name="str-num" id="str-num" placeholder="Nr" required="true" tabindex="12" />
+                            <input type="text" name="floor" id="floor" placeholder="Floor" required="true" tabindex="13"/>
+                            <input type="text" name="ap-num" id="ap-num" placeholder="Ap Nr" required="true" tabindex="14" />
+                        </fieldset>
+
+                        <fieldset id="door">
+                            <input name="doorColor" type="color" id="color" required="true" tabindex="15"/>
+                            <input type="number" id="water" min="0" max="100" placeholder="Water Meter Nr" required="true" tabindex="16" />
+                            <input type="number" id="aunt" min="0" max="100" placeholder="Aunt panties Size" required="true" tabindex="17" />
+                        </fieldset>
+
+                        <fieldset id="personal-info">
+                            <label>More Personal Information</label>
+                            <br></br>
+                            <textarea name="comments">Give us more information!!!</textarea>
+                        </fieldset>
+
+                    </fieldset>
+                </form>
+
+                <input type="submit" value="Register" />
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>

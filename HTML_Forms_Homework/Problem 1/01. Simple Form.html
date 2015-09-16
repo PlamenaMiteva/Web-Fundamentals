@@ -1,0 +1,37 @@
+<html>
+
+<head>
+    <title>Simple Form</title>
+    <link href="style.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <div id="wrapper">
+        <head>
+            <h1>Enter the system</h1>
+        </head>
+        <p id="first">It is necessary to login to your account in order to sign in to a course.</p>
+        <form method="post" action="form.php">
+            <fieldset id="left">
+                <span id="new">ARE YOU NEW?</span><span id="reg">REGISTER</span>
+                <input type="text" name="userName" id="user" placeholder="User name" />
+                <input type="email" name="mail" id="mail" placeholder="Email" />
+                <input type="password" name="pass" id="pass" placeholder="Password" />
+                <input type="password" name="confirmation" id="confirmation" placeholder="Confirm Password" />
+                <input type="submit" id="register" value="Register!" />
+            </fieldset>
+            <fieldset id="right">
+                <span>ALREADY A STUDENT?LOGIN</span>
+                <input type="text" name="userName" id="user-name" placeholder="User name" />
+                <input type="password" name="password" id="pass" placeholder="Password" />
+                <p>
+                    <input type="checkbox" name="remember" value="yes">Remember me?</p>
+                <input type="submit" id="log" value="Login" />
+                <a href="">Forgot password</a>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>

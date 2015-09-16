@@ -1,0 +1,63 @@
+#wrapper {
+    width: 950px;
+    height: 650px;
+    float: left;
+}
+button {
+    width: 300px;
+    height: 300px;
+}
+img {
+    width: 250px;
+    height: 120px;
+}
+fieldset {
+    width: 150px;
+    height: 590px;
+    float: left;
+    background-color: lightblue;
+}
+#first, #second, #fourth, #fifth {
+    margin-right: 10px;
+}
+#first, #second, #third {
+    margin-bottom: 10px;
+}
+label {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    color: navy;
+}
+span {
+    padding-bottom: 5px;
+    color: navy;
+}
+span:nth-child(2n+1) {
+    float: right;
+    padding-right: 10px;
+}
+h1 {
+    color: navy;
+}
+a {
+    color: navy;
+    text-decoration: none;
+}
+a p:first-child {
+    font-weight: bold;
+    font-size: 17px;
+}
+button p:last-child {
+    background-color: navy;
+    color: white;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+    float: right;
+    border-top-left-radius: 1em;
+}

@@ -1,0 +1,72 @@
+#wrapper {
+    width: 700px;
+    height: 470px;
+    background-color: lightgray;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+#left {
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+#right {
+    float: left;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    background-color: navy;
+}
+h1 {
+    color: navy;
+}
+#first {
+    margin-bottom: 40px;
+    color: gray;
+}
+#left input, #right input[type="text"], #right input[type="password"] {
+    margin-bottom: 20px;
+}
+#left input:first-of-type, #right input:first-of-type {
+    margin-top: 10px;
+}
+input[type="text"], input[type="password"], input[type="email"] {
+    width: 300px;
+    height: 40px;
+}
+#right p, #right a, #right span {
+    color: white;
+}
+span{
+	font-weight: bold;
+}
+input[type="checkbox"], #right p, #log {
+    float: left;
+}
+#log {
+    margin-left: 70px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 35px;
+    border-color: orange;
+    background-color: navy;
+    color: white;
+}
+a {
+    float: right;
+}
+#left input[type="submit"] {
+	margin-left: 200px;
+    width: 100px;
+    height: 35px;
+    border-color: navy;
+    color: navy;
+    font-weight: bold;
+}
+#reg{
+	color: navy;
+}
+#new{
+	color: gray;
+}

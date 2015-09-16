@@ -1,0 +1,151 @@
+table, td, th {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #009744;
+	font-family: Arial;
+}
+table {
+	border-collapse: separate;
+  	border-spacing: 0;
+  	border-radius: 15px;
+  	border: none;
+}
+th, td {
+	border: solid 1px black;
+}
+tr {
+	height: 50px;
+}
+thead th {
+	background-color: #F8CA14;
+	font-size: 20px;
+	padding: 10px;
+	border-bottom-width: 3px;
+	border-top-width: 3px;
+}
+thead th:first-child {
+	border-top-left-radius: 15px;
+	border-left-width: 3px;
+	text-align: right;;
+}
+thead th:last-child {
+	border-top-right-radius: 15px;
+	border-right-width: 3px;
+}
+thead th:nth-child(3) {
+	text-align: left;
+}
+tbody tr:last-child td:first-child {
+	border-bottom-left-radius: 15px;
+	border-left-width: 3px;
+}
+tbody tr:last-child td:last-child {
+	border-bottom-right-radius: 15px;
+	border-right-width: 3px;
+}
+tbody tr:last-child td {
+	border-top-width: 3px;
+	border-bottom-width: 3px;
+}
+th:nth-child(3), td:nth-child(3), td:nth-child(6) {
+	border-right-width: 3px;
+}
+td:first-child {
+	border-left-width: 3px;
+}
+td:last-child {
+	border-right-width: 3px;
+}
+tbody td {
+	padding: 5px;
+	font-size: 14px;
+}
+tr:nth-child(2n) {
+	background-color: #CBCBCB;
+}
+tr:nth-child(2n+1) {
+	background-color: white;
+}
+td:nth-child(1), td:nth-child(5) {
+	text-align: right;
+}
+td:nth-child(2n) {
+	text-align: center;
+}
+td:nth-child(2n+1) {
+	width: 130px;
+}
+select.red {
+	color: red;
+}
+select.green {
+	color: green;
+}
+td.red {
+	width: 50px;
+    background: url("images/red-bet.png") no-repeat center center;
+    background-size: 35px 35px;
+}
+td.green {
+	width: 50px;
+    background: url("images/green-bet.png") no-repeat center center;
+    background-size: 35px 35px;
+}
+tbody tr td:nth-child(1):after {
+    display: inline-block;
+    vertical-align: text-top;
+    width: 20px;
+    height: 15px;
+    margin-left: 5px;
+    content: "";
+}
+tbody tr td:nth-child(3):before {
+    display: inline-block;
+    vertical-align: text-top;
+    width: 20px;
+    height: 15px;
+    margin-right: 5px;
+    content: "";
+}
+tbody tr:nth-child(1) td:nth-child(1):after {
+    background: url("images/Brazil.png") no-repeat 0 0;
+    background-size: 100%;
+}
+tbody tr:nth-child(1) td:nth-child(3):before {
+    background: url("images/Mexico.png") no-repeat 0 0;
+    background-size: 100%;
+}
+tbody tr:nth-child(2) td:nth-child(1):after {
+    background: url("images/Spain.png") no-repeat 0 0;
+    background-size: 100%;
+}
+tbody tr:nth-child(2) td:nth-child(3):before {
+    background: url("images/netherlands.gif") no-repeat 0 0;
+    background-size: 100%;
+}
+tbody tr:nth-child(3) td:nth-child(1):after {
+    background: url("images/italy.gif") no-repeat 0 0;
+    background-size: 100%;
+}
+tbody tr:nth-child(3) td:nth-child(3):before {
+    background: url("images/england.jpg") no-repeat 0 0;
+    background-size: 100%;
+}
+tbody tr:nth-child(4) td:nth-child(1):after {
+    background: url("images/argentina.png") no-repeat 0 0;
+    background-size: 100%;
+}
+tbody tr:nth-child(4) td:nth-child(3):before {
+    background: url("images/bosna.png") no-repeat 0 0;
+    background-size: 100%;
+}
+tbody tr:nth-child(5) td:nth-child(1):after {
+    background: url("images/germany.png") no-repeat 0 0;
+    background-size: 100%;
+}
+tbody tr:nth-child(5) td:nth-child(3):before {
+    background: url("images/portugal.png") no-repeat 0 0;
+    background-size: 100%;
+}

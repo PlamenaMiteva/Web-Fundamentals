@@ -1,0 +1,69 @@
+#wrapper {
+    width: 1030px;
+    height: 500px;
+    background-color: #D1D2CA;
+    padding: 20px 10px 20px 30px;
+}
+h2{
+	color: #234465;
+}
+#admission, #vacation, #conference {
+    width: 300px;
+    height: 320px;
+    padding: 15px;
+    float: left;
+    background-color: white;
+}
+#admission, #vacation {
+    margin-right: 10px;
+}
+article header {
+    color: #234465;
+    text-align: left;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+#admission header {
+    margin-bottom: 20px;
+}
+article date {
+    margin-left: 220px;
+}
+#vacation img, #conference img {
+    width: 280px;
+    height: 100px;
+}
+#admission img {
+    height: 100px;
+    padding-left: 90px;
+}
+#vacation p {
+    margin-bottom: 35px;
+}
+article p, article author, article footer {
+    color: gray;
+}
+article footer {
+    margin-top: 20px;
+    font-size: 13px;
+}
+article footer span {
+    color: black;
+    font-weight: bold;
+}
+.pagination {
+    display: inline-flex;
+    list-style: none;
+    margin-top: 40px;
+}
+.pagination a {
+    text-decoration: none;
+    border: 1px solid;
+    border-color: white;
+    background-color: #339CBF;
+    padding: 5px 10px;
+}
+.current a {
+    background-color: orange;
+}

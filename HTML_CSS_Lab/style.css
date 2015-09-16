@@ -1,0 +1,148 @@
+body {
+    background-color: gray;
+}
+@font-face {
+    font-family: 'myFirstFont';
+    src: url('fonts/Pamela wants to Ride.ttf');
+}
+@font-face {
+    font-family: 'mySecFont';
+    src: url('fonts/Pamela want a Bike to Ride.ttf');
+}
+#wrapper {
+    width: 960px;
+    background-color: #DDD;
+    margin: 10px auto;
+    height: 900px;
+}
+header {
+    padding: 15px;
+    height: 40px;
+}
+#logo img {
+    float: left;
+    width: 250px;
+    height: 40px;
+    padding-right: 150px;
+}
+nav ul {
+    list-style-type: none;
+}
+nav ul li {
+    display: inline-block;
+    font-family: 'myFirstFont';
+    font-size: 30px;
+    padding-right: 30px;
+    vertical-align: text-top;
+}
+nav ul li a {
+    color: #CD3772;
+    text-decoration: none;
+}
+nav li a:hover {
+    font-family: 'mySecFont';
+}
+footer p {
+    float: left;
+    padding-right: 100px;
+}
+footer div, footer div a {
+    display: inline-block;
+}
+#facebook {
+    width: 75px;
+    height: 75px;
+    background: url('images/sprites-transparent.png') no-repeat -75px 0px;
+}
+#tweeter {
+    width: 75px;
+    height: 75px;
+    background: url('images/sprites-transparent.png') no-repeat 0 0;
+}
+#vimeo {
+    width: 75px;
+    height: 75px;
+    background: url('images/sprites-transparent.png') no-repeat -225px 0px;
+}
+#facebook:hover {
+    width: 75px;
+    height: 75px;
+    background: url('images/sprites-transparent.png') no-repeat -75px -150px;
+}
+#tweeter:hover {
+    width: 75px;
+    height: 75px;
+    background: url('images/sprites-transparent.png') no-repeat 0px -150px;
+}
+#vimeo:hover {
+    width: 75px;
+    height: 75px;
+    background: url('images/sprites-transparent.png') no-repeat -225px -150px;
+}
+table {
+    width: 500px;
+    background-color: yellow;
+    margin-top: 50px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    float: left;
+}
+table th {
+    background-color: orange;
+    padding: 10px;
+}
+table td {
+    padding: 10px;
+    text-align: center;
+}
+td a {
+    border-style: solid;
+    border-color: blue;
+    margin-right: 10px;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
+td a:first-child:hover {
+    background-color: green;
+}
+td a:last-child:hover {
+    background-color: red;
+}
+form {
+    padding-top: 50px;
+    width: 400px;
+    float: right;
+}
+#search {
+    width: 13em;
+    height: 4em;
+    background-color: green;
+    color: white;
+    border-radius-top-left: 20px;
+    border-radius-bottom-left: 20px;
+}
+#reset {
+    width: 13em;
+    height: 4em;
+    background-color: red;
+    border-radius-top-right: 20px;
+    border-radius-bottom-right: 20px;
+}
+#image {
+    display: inline-block;
+    width: 
+}
+#image img {
+    float: none;
+    width: 140px;
+    height: 100px;
+}
+
+#image img:first-child{
+	padding-right: 10px;
+}
+#image img:nth-child(2){
+	padding-right: 10px;
+}

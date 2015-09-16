@@ -1,0 +1,131 @@
+#wrapper {
+    width: 900px;
+    margin: 0px auto;
+}
+h1 {
+    background-image: url('headerBackground.jpg');
+    background-repeat: no-repeat;
+    height: 40px;
+    color: white;
+    padding-left: 500px;
+    padding-top: 200px;
+    margin-bottom: 0px;
+}
+nav {
+    margin-top: 0px;
+    background-color: #B4B4B4;
+    margin-top: -16px;
+}
+ul>li {
+    border-right-style: solid;
+    border-color: white;
+    border-width: 1px;
+}
+ul li:nth-of-type(1) {
+    margin-left: -39px;
+    background-color: gray;
+}
+nav ul li {
+    display: inline-flex;
+    flex-wrap: wrap;
+    height: 40px;
+    justify-content: flex-start;
+    padding: 20px 20px 0px 20px;
+    color: white;
+    border-style: 2px solid;
+    border-color: white;
+    text-align: center;
+}
+main {
+    float: left;
+    width: 650px;
+    height: 100%;
+}
+#aside-menu {
+    float: left;
+}
+h2, #news a, #messages a {
+    color: #3CB51E;
+}
+#news {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #858875;
+    border-radius: 10px;
+    background-color: #B4B4B4;
+    padding: 10px;
+    font-size: 15px;
+    width: 180px;
+    height: 310px;
+    margin-bottom: 10px;
+}
+#news div {
+    line-height: 10px;
+}
+#news div {
+    margin-bottom: 30px;
+}
+#news div p:first-of-type, #messages date, #messages span {
+    font-weight: bold;
+}
+#messages {
+    float: left;
+}
+#messages {
+    width: 180px;
+    height: 300px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #858875;
+    border-radius: 10px;
+    background-color: #B4B4B4;
+    padding: 10px;
+    font-size: 15px;
+}
+#home-page, #article-container {
+    margin-right: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #858875;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 15px;
+}
+#article-container {
+    margin-top: 10px;
+}
+#find header:before {
+    content: "";
+    float: left;
+    width: 140px;
+    height: 120px;
+    margin: 0 10px 0 0;
+    background: url('0005.jpg');
+}
+#meeting header:before {
+    content: "";
+    float: left;
+    width: 140px;
+    height: 120px;
+    margin: 0 10px 0 0;
+    background: url('0004.jpg');
+}
+#skate header:before {
+    content: "";
+    float: left;
+    width: 140px;
+    height: 120px;
+    margin: 0 10px 0 0;
+    background: url('0003.jpg');
+}
+footer {
+    float: left;
+    background-color: #3CB51E;
+    width: 100%;
+    margin-top: 10px;
+        font-size: 15px;
+}
+footer p{
+padding-top: 15px;
+padding-left: 150px;
+}

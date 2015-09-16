@@ -1,0 +1,164 @@
+#wrapper {
+    width: 1020px;
+    margin: 0 auto;
+}
+#wrapper>header {
+    background-color: #FBBE61;
+    height: 60px;
+}
+#wrapper>header>h1 {
+    padding-top: 10px;
+    padding-left: 50px;
+    font-family: "Nunito";
+    color: white;
+    font-weight: bold;
+    font-size: 42px;
+}
+#wrapper>nav {
+    background-color: black;
+    height: 50px;
+    font-family: "Nunito";
+    font-size: 16px;
+}
+#wrapper>nav>ul>li {
+    display: inline-block;
+    float: left;
+    margin-top: 20px;
+}
+#wrapper>nav>ul>li:last-child {
+    margin-right: 250px;
+}
+#wrapper>nav>ul>li>a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 20px;
+}
+#wrapper>nav>ul>li>a:hover{
+	color: #2D8A9B;
+}
+#wrapper>nav>form {
+    float: left;
+    margin-top: 10px;
+    color: white;
+}
+#googlesearch {
+    height: 20px;
+    background-color: #2D8A9B;
+}
+#wrapper>nav>form>img {
+    height: 20px;
+}
+#wrapper>nav:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+#main-container {
+    width: 650px;
+    height: 550px;
+    padding: 20px;
+    float: left;
+    background-color: #F7EEDF;
+    font-family: Verdana;
+    font-size: 13px;
+}
+#main-container>header>h2 {
+    color: #2D8A9B;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: Cambria;
+}
+#post1, #post2, article>img {
+    margin-top: 10px;
+    width: 600px;
+}
+article>img {
+    margin-bottom: 10px;
+    height: 130px;
+}
+#post1>header>h3, #post2>header>h3 {
+    font-size: 22px;
+    font-family: "Nunito";
+}
+#post1>header>date, #post2>header>date {
+    font-size: 10px;
+    color: #FBBE61;
+}
+#right-nav {
+    height: 550px;
+    padding: 20px;
+    background-color: #EDDEC7;
+    font-family: Verdana;
+    font-size: 13px;
+}
+aside {
+    width: 340px;
+    float: left;
+    padding-left: 15px;
+    font-size: 13px;
+    font-family: Verdana;
+}
+#archive {
+    background-color: #2B8B99;
+    margin-left: 10px;
+}
+#archive, #archive>header>h4, #archive>ul>li {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color: white;
+}
+#archive>ul>li a {
+    text-decoration: none;
+    color: white;
+}
+#archive>ul>li a:hover {
+    text-decoration: underline;
+}
+#archive>ul>li:hover {
+    background-color: #39A4B6;
+}
+#about img {
+    width: 350px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#about>header>h4{
+	font-weight: bold;
+    font-size: 22px;
+	color: #2D8A9B;
+}
+#about>p>a{
+	text-decoration: none;
+	color: #2D8A9B;
+}
+footer{
+	background-color: #2D8A9B;
+	height: 50px;
+	color: white;
+	padding-top: 10px;
+	padding-left: 20px;
+	font-size: 13px;
+}
+#fig {
+  position: absolute;
+  height:50px;
+  line-height:50px;
+  background-color: rgba(139, 137, 137, 0.6);
+  top:290px;
+  width:600px;
+  padding-left: 5px;
+  color: white;
+  transition: bottom 0.5s ease;
+}
+#fig2 {
+  position: absolute;
+  height:50px;
+  line-height:50px;
+  background-color: rgba(139, 137, 137, 0.6);
+  top:520px;
+  width:600px;
+  padding-left: 5px;
+  color: white;
+  transition: bottom 0.5s ease;
+}

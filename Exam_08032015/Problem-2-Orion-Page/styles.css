@@ -1,0 +1,194 @@
+#wrapper {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0 40px;
+    background-color: #50247D;
+    font-family: Calibri, Arial, sans-serif;
+    font-size: 12px;
+}
+#wrapper>header>img {
+    width: 1000px;
+    height: 300px;
+    border-bottom: 7px solid #36A4D5;
+}
+#wrapper>header>h1 {
+    position: relative;
+    top: -280px;
+    padding-left: 200px;
+    height: 40px;
+    font-size: 68px;
+    font-family: 'Oleo Script';
+    font-weight: bold;
+    color: white;
+    clear: both;
+}
+#wrapper>header>h2 {
+    position: relative;
+    top: -250px;
+    padding-left: 380px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    clear: both;
+}
+#wrapper>nav>ul>li {
+    display: inline-block;
+    position: relative;
+    top: -200px;
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #50247D;
+    background-color: white;
+    margin-right: 5px;
+    text-align: center;
+    clear: both;
+}
+#wrapper>nav>ul>li>div {
+    width: 100px;
+    height: 30px;
+    padding-top: 10px;
+    /*padding: 0 0 0 30px;*/
+}
+ul li a {
+    text-decoration: none;
+    padding-bottom: 20px;
+}
+ul li div:hover {
+    background-color: #36A4D5;
+}
+ul li div a:hover {
+    color: white;
+}
+#wrapper>nav>ul>li:first-child {
+    margin-left: 250px;
+}
+#wrapper>header>h1:after {
+    content: "";
+    width: 190px;
+    height: 50px;
+    background-color: rgba(128, 128, 128, 0.6);
+    position: absolute;
+    top: -40%;
+    left: 49%;
+}
+#wrapper>header:after {
+    content: "";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+main {
+    height: 500px;
+    background-color: #EAE7EE;
+    margin-top: -100px;
+    border-top: 7px solid #865AB3;
+    border-bottom: 7px solid #36A4D5;
+    padding: 40px 30px 30px 30px;
+}
+#left-article {
+    width: 440px;
+    height: 460px;
+    float: left;
+    background-color: white;
+    padding: 20px 20px 0 20px;
+    margin-right: 20px;
+}
+#left-article>article>div {
+    background-color: #36A4D5;
+    padding: 10px 5px 5px 20px;
+    height: 16px;
+    width: 80px;
+    font-weight: bold;
+    margin-left: 355px;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+#left-article>article>div>a {
+    text-decoration: none;
+    color: white;
+}
+#left-article>article>header>h2 {
+    font-family: 'Oleo Script';
+    font-size: 48px;
+    font-weight: bold;
+}
+#left-article>article>header>h3 {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#left-article>article>p {
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+#left-article>article>div:last-child {
+    background-color: #865AB3;
+    padding: 10px 5px 5px 20px;
+    height: 20px;
+    width: 200px;
+    font-weight: bold;
+    margin-left: 230px;
+}
+#left-article>article>div:last-child:hover {
+    background-color: #50247D;
+}
+#right-article {
+    width: 440px;
+    height: 440px;
+    float: left;
+}
+#right-article article {
+    width: 200px;
+    display: inline-block;
+    background-color: white;
+}
+#right-article>article>div {
+    position: relative;
+    top: -150px;
+    padding: 10px 5px 5px 5px;
+    height: 16px;
+    width: 80px;
+    font-weight: bold;
+    background-color: #36A4D5;
+    margin-left: 110px;
+    text-align: center;
+    clear: both;
+}
+#right-article>article>div a {
+    text-decoration: none;
+    color: white;
+}
+#second-article, #fourth-article {
+    margin-left: 30px;
+}
+#third-article, #fourth-article {
+    margin-top: 30px;
+}
+#right-article>article>header h4 {
+    margin-left: 5px;
+    color: #36A4D5;
+    font-weight: bold;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+#right-article>article>p {
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+q{
+    font-weight: bold;
+    font-family: 'Oleo Script';
+}
+footer {
+    width: 1000px;
+    height: 100px;
+}
+footer p {
+    color: white;
+    padding-top: 20px;
+    padding-left: 10px;
+}

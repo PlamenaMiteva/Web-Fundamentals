@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Flight Order</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="wrapper">
+
+        <head>
+            <p id="flight">FLIGHT ORDER</p>
+        </head>
+        <form method="get" action="form.php">
+            <fieldset id="departure">
+                <legend>From</legend>
+                <input type="text" name="city" id="city" placeholder="enter a city" />
+            </fieldset>
+            <fieldset id="arrival">
+                <legend>To</legend>
+                <input type="text" name="arrival-city" id="arrival-city" placeholder="enter a city" />
+                <p>
+                    <input type="checkbox" name="direct-flight" value="yes">Prefer directs</p>
+            </fieldset>
+            <fieldset id="departure-date">
+                <legend>Departure Date</legend>
+                <input name="departureDate" type="date" />
+            </fieldset>
+            <fieldset id="departure-time">
+                <legend>Time Interval</legend>
+                <input name="startTime" type="time" />
+                <input name="endTime" type="time" />
+            </fieldset>
+            <fieldset id="arrival-date">
+                <legend>Return Date</legend>
+                <input name="returnDate" type="date" />
+            </fieldset>
+            <fieldset id="arrival-time">
+                <legend>Time Interval</legend>
+                <input name="arrivalStartTime" type="time" />
+                <input name="arrivalEndTime" type="time" />
+            </fieldset>
+            <fieldset id="adults">
+                <legend>12+</legend>
+                <input type="number" min="13" max="100" />
+            </fieldset>
+            <fieldset id="kid">
+                <legend>2-12</legend>
+                <input type="number" min="2" max="12" />
+            </fieldset>
+            <fieldset id="baby">
+                <legend>0-2</legend>
+                <input type="number" min="0" max="2" />
+            </fieldset>
+            <fieldset id="seat">
+                <legend>Choose class</legend>
+                <select id ="seat-class" name="class">
+                    <option value="Value 1">Business</option>
+                    <option value="Value 2" selected="selected">Economy</option>
+                    <option value="Value 3">Premium</option>
+                </select>
+            </fieldset>
+            <fieldset id="search">
+                <input name="searchQuery" type="search" value="Search" />
+            </fieldset>
+        </form>
+</boDy>
+
+</html>

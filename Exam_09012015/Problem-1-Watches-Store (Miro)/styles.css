@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'Lemon';
+    src: url('font/Lemon-Regular.ttf');
+}
+body {
+    width: 1000px;
+    background-color: #602D75;
+    font-family: 'Lemon', Arial;
+}
+#wrapper {
+    width: 900px;
+    height: 500px;
+    margin: 0 auto;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 50px;
+    background-color: #FFAE32;
+    border-radius: 10px;
+}
+#wrapper>header>h1 {
+    text-align: center;
+    font-size: 24px;
+}
+#wrapper>main>section {
+    display: inline-block;
+    width: 250px;
+    height: 390px;
+    background-color: #602D75;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 20px;
+    padding-left: 10px;
+    color: white;
+    font-size: 15px;
+}
+#wrapper>main>section>header>h2 {
+    text-align: center;
+    font-size: 22px;
+}
+#wrapper>main>section>p:nth-of-type(1) {
+    color: orange;
+    text-align: center;
+}
+img {
+    width: 120px;
+    height: 120px;
+    border: 3px solid #806671;
+    border-radius: 50%;
+    margin-left: 50px;
+}
+#wrapper>main>section>a:last-child {
+	margin-bottom: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: #602D75;
+    background-color: white;
+    border: 1px solid #806671;
+    border-radius: 10px;
+    padding: 5px 60px;
+}
+#wrapper>main>section>a>img:first-child:hover{
+	border-color: orange;
+}
+
+#wrapper>main>section>a:last-child:hover{
+	color: orange;
+}
+span.text-content{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    display: table;
+    height: 30px;
+    left: 200px;
+    position: absolute;
+    top: 210px;
+    width: 50px;
+    opacity: 0;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    transition: opacity 500ms;
+}
+span.text-content-1{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    display: table;
+    height: 30px;
+    left: 500px;
+    position: absolute;
+    top: 210px;
+    width: 50px;
+    opacity: 0;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    transition: opacity 500ms;
+}
+span.text-content-2{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    display: table;
+    height: 30px;
+    left: 800px;
+    position: absolute;
+    top: 210px;
+    width: 50px;
+    opacity: 0;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    transition: opacity 500ms;
+}
+span.text-content span {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+#wrapper>main>section>a:hover span.text-content{
+    opacity: 1;
+}
+#wrapper>main>section>a:hover span.text-content-1{
+    opacity: 1;
+}
+#wrapper>main>section>a:hover span.text-content-2{
+    opacity: 1;
+}

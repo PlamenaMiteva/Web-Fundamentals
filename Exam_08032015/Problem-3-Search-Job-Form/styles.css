@@ -1,0 +1,53 @@
+#wrapper {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #EEEEEE;
+    font-family: Tahoma, Helvetica, sans-serif;
+    font-size: 14px;
+}
+#heading {
+    background-color: #384452;
+}
+#heading>div {
+    display: inline-block;
+    padding: 10px 20px 10px 10px;
+}
+#heading>div:first-child{
+    background-color: #3BBC96;
+}
+#heading>div>img{
+	width: 40px;
+	height: 40px;
+	vertical-align: middle;
+}
+#heading>div>a {
+    text-decoration: none;
+    color: white;
+}
+#info{
+	padding: 20px 0 20px 25px;
+}
+#info>form{
+	display: inline-block;
+	width: 240px;
+}
+#info>form>legend{
+	color: #384452;
+	font-weight: bold;
+}
+input[type="text"], input[type="date"], input[type="submit"], input[type="number"]{
+	width: 220px;
+	height: 40px;
+	margin-top: 20px;
+}
+input[type="submit"]{
+	background-color: #3BBC96;
+	border-radius: 10px;
+	border-color:#3BBC96;
+	color: white;
+	font-weight: bold;
+}
+input[type="submit"]:hover{
+	background-color: #384452;
+	border-color: #384452;
+}
